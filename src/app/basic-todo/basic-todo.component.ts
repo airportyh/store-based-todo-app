@@ -19,7 +19,8 @@ export class BasicTodoComponent implements OnInit {
 
   addTodo() {
     const todo = {
-      name: this.newTodoName
+      name: this.newTodoName,
+      complete: false
     }
   }
 
