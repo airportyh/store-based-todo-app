@@ -1,0 +1,24 @@
+import { Component, OnInit } from '@angular/core';
+import { ITodo } from 'src/app/models/todo';
+
+@Component({
+  selector: 'basic-todo',
+  templateUrl: './basic-todo.component.html',
+  styleUrls: ['./basic-todo.component.css']
+})
+export class BasicTodoComponent implements OnInit {
+  newTodoName: string;
+  todos: ITodo[] = [
+    { name: "Water Plants", complete: false }
+  ];
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+  addTodo() {
+    
+  }
+
+}

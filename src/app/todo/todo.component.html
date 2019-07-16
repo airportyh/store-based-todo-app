@@ -1,0 +1,15 @@
+<h1>You Gotta Do it:</h1>
+<ul>
+  <li *ngFor="let todo of (store.subject$ | async); let i = index">
+    <input
+      type="text"
+      [ngModel]="todo.title"
+      (ngModelChange)="store.editTodo(i, $event)"
+    >
+  </li>
+</ul>
+<button (click)="addTodo()">Add</button>
+<pre>
+  {{ store.subject$ | async | json }}
+</pre>
+
