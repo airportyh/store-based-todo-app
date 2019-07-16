@@ -19,7 +19,7 @@ export class BasicTodoComponent implements OnInit {
 
   addTodo() {
     const todo = {
-      name: 
+      name: this.newTodoName
     }
   }
 
