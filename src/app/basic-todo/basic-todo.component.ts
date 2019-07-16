@@ -21,7 +21,9 @@ export class BasicTodoComponent implements OnInit {
     const todo = {
       name: this.newTodoName,
       complete: false
-    }
+    };
+    this.todos.push(todo);
+    this.newTodoName = "";
   }
 
 }
