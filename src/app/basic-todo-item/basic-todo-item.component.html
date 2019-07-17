@@ -7,6 +7,8 @@
       >
       <span *ngIf="!editing">{{todo.name}}</span>
       <input
-        type="text" [ngModel]="todo.name"
+        type="text"
+        [ngModel]="todo.name"
+        (ngModelChange)
     </label>
   </li>
