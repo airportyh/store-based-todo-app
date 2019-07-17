@@ -25,6 +25,7 @@ export class BasicTodoComponent implements OnInit {
     };
     this.todos.push(todo);
     this.newTodoName = "";
+    this.validate();
   }
 
   handleItemChange() {
