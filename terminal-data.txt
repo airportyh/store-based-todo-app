@@ -1,2 +1,0 @@
-[1m[31mERROR in store/store.ts(50,49): error TS2339: Property 'sub' does not exist on type 'Store'.
-[39m[22m
