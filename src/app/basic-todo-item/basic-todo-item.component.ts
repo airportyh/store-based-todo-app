@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BasicTodoItemComponent implements OnInit {
 
+
   constructor() { }
 
   ngOnInit() {
