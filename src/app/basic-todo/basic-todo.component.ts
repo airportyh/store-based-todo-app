@@ -29,12 +29,12 @@ export class BasicTodoComponent implements OnInit {
 
   handleItemChange() {
     console.log("handle item change");
-    this.isValid = this.todos.filter(todo => !todo.complete).length <= 5;
+
     console.log("isValid", this.isValid);
   }
 
   validate() {
-
+    this.isValid = this.todos.filter(todo => !todo.complete).length <= 5;
   }
 
 }
