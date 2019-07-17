@@ -3,7 +3,7 @@
   <button (click)="addTodo()">Add</button>
 </div>
 <ul class="todos">
-  <li *ngFor="let todo of todos; let i = index" class="todo">
+  <basic-todo-item *ngFor="let todo of todos; let i = index" class="todo">
     <label>
       <input
         type="checkbox"
