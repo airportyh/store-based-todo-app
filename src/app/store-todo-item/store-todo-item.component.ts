@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StoreTodoItemComponent implements OnInit {
 
-  @Input() 
+  @Input() store: Store
 
   constructor() { }
 
