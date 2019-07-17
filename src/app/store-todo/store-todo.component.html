@@ -10,7 +10,7 @@ You have {{activeCount$ | async}} active todos, and {{completeCount$ | async}} c
 <ul class="todos">
     <basic-todo-item
       [todo]="todo"
-      *ngFor="let todo of todos; let i = index"
+      *ngFor="let todo of todos$ | async; let i = index"
       (change)="handleItemChange()"
       >
     </basic-todo-item>
