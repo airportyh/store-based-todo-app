@@ -10,6 +10,7 @@ export class AppComponent {
   title = 'store-based-todo';
 
   todoStore = new Store({
-    isValid: false
+    isValid: true,
+    [{}]
   });
 }
