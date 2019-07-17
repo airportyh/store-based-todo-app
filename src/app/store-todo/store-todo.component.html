@@ -2,7 +2,7 @@
 <div class="new-todo-input">
     <input type="text"
       [ngModel]="newTodoName$"
-      (ngModelChange)="store.set(['newTodoName', $event])""
+      (ngModelChange)="store.set(['newTodoName', $event])"
     >
     <button (click)="addTodo()">Add</button>
   </div>
