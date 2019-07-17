@@ -1,2 +1,0 @@
-[1m[31mERROR in store-todo/store-todo.component.ts(41,5): error TS2554: Expected 2 arguments, but got 1.
-[39m[22m
