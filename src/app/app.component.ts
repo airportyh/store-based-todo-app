@@ -9,5 +9,7 @@ import { Store } from 'src/app/store/store';
 export class AppComponent {
   title = 'store-based-todo';
 
-  todoStore = new Store();
+  todoStore = new Store({
+    isValid: false
+  });
 }
