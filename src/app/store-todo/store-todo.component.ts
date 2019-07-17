@@ -27,7 +27,7 @@ export class StoreTodoComponent implements OnInit {
       );
     this.activeCount$ = this.todos$
         .pipe(
-          map((todos) => )
+          map((todos) => todos.filter(todo => ))
         )
   }
 
