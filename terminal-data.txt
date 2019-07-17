@@ -1,3 +1,0 @@
-[1m[31mERROR in store/store.ts(39,15): error TS2451: Cannot redeclare block-scoped variable 'newValue'.
-store/store.ts(40,15): error TS2451: Cannot redeclare block-scoped variable 'newValue'.
-[39m[22m
