@@ -32,7 +32,7 @@ export class Store {
 
     transform(path: any[], transform: (value) => any): void {
       if (path.length === 0) {
-        this.subject$.next(value);
+        this.subject$.next(trvalue);
       } else {
         _.set(this.subject$.value, path, value);
         this.subject$.next(this.subject$.value);
