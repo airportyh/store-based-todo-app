@@ -16,7 +16,7 @@ export class StoreTodoComponent implements OnInit {
   public todos$: Observable<ITodo[]>;
   public activeCount$: Observable<number>;
   public completeCount$: Observable<number>;
-  public newTodoName: Observable<string>;
+  public newTodoName: string>;
 
   constructor() { }
 
