@@ -2,7 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { ITodo } from 'src/app/models/todo';
 
 @Component({
-  selector: 'app-basic-todo-item',
+  selector: 'basic-todo-item',
   templateUrl: './basic-todo-item.component.html',
   styleUrls: ['./basic-todo-item.component.css']
 })
