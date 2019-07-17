@@ -1,0 +1,3 @@
+[1m[31mERROR in store-todo-item/store-todo-item.component.ts(15,28): error TS2304: Cannot find name 'Todo'.
+store-todo-item/store-todo-item.component.ts(20,34): error TS2304: Cannot find name 'ind'.
+[39m[22m
