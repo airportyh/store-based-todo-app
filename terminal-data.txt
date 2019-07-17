@@ -1,3 +1,0 @@
-[1m[31mERROR in store-todo/store-todo.component.ts(28,5): error TS2322: Type 'Observable<ITodo[]>' is not assignable to type 'Observable<number>'.
-  Type 'ITodo[]' is not assignable to type 'number'.
-[39m[22m
