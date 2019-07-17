@@ -25,7 +25,7 @@ export class Store {
       if (path.length === 0) {
         this.subject$.next(value);
       } else {
-        _.set(this.subject$.value, path, value);
+        set(this.subject$.value, path, value);
         this.subject$.next(this.subject$.value);
       }
     }
