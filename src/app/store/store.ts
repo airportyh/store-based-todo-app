@@ -30,6 +30,15 @@ export class Store {
       }
     }
 
+    set(path: any[], value: any): void {
+      if (path.length === 0) {
+        this.subject$.next(value);
+      } else {
+        _.set(this.subject$.value, path, value);
+        this.subject$.next(this.subject$.value);
+      }
+    }
+
     push(path: any[], value: any): void {
       const array = path.length === 0 ?
         this.subject$.value :
