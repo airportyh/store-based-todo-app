@@ -1,2 +1,0 @@
-[1m[31mERROR in store-todo/store-todo.component.ts(14,30): error TS2304: Cannot find name 'ITodo'.
-[39m[22m
