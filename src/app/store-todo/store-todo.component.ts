@@ -2,6 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Store } from 'src/app/store/store';
 import { Observable } from '../../../node_modules/rxjs';
 import { ITodo } from 'src/app/models/todo';
+import { map } from '../../../node_modules/rxjs/operators';
 
 @Component({
   selector: 'store-todo',
