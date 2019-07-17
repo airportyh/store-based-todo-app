@@ -28,7 +28,7 @@ export class BasicTodoComponent implements OnInit {
   }
 
   handleItemChange(i: number, todo: ITodo) {
-
+    
   }
 
 }
