@@ -18,6 +18,9 @@ export class StoreTodoComponent implements OnInit {
 
   ngOnInit() {
     this.isValid$ = this.store.get(["todos"])
+      .pipe(
+        map
+      )
     this.todos$ = this.store.get(["todos"]);
   }
 
