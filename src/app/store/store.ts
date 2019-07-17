@@ -45,7 +45,7 @@ export class Store {
     push(path: any[], value: any): void {
       const array = path.length === 0 ?
         this.subject$.value :
-        _.get(this.subject$.value, path);
+        get(this.subject$.value, path);
       const newArray = [...array, value];
       this.subject$.next(this.subject$.value);
     }
