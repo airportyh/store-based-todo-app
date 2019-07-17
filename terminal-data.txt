@@ -1,4 +1,1 @@
-[1m[31mERROR in store-todo/store-todo.component.ts(41,16): error TS2339: Property 'transform' does not exist on type 'Store'.
-store/store.ts(24,5): error TS2393: Duplicate function implementation.
-store/store.ts(33,5): error TS2393: Duplicate function implementation.
-[39m[22m
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
