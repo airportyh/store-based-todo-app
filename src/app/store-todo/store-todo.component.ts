@@ -38,7 +38,7 @@ export class StoreTodoComponent implements OnInit {
   }
 
   addTodo() {
-    
+    this.store.transform()
   }
 
 }
