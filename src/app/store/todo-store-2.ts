@@ -7,6 +7,6 @@ export class TodoStore {
       complete: false
     };
     this.store.push(["todos"], todo);
-    this.newTodoName = "";
+    newTodoName = "";
   }
 }
