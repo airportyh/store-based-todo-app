@@ -28,7 +28,7 @@ export class BasicTodoComponent implements OnInit {
   }
 
   handleItemChange() {
-    this.isValid = this.todos.filter(todo => todo.complete).length
+    this.isValid = this.todos.filter(todo => todo.complete).length <
   }
 
 }
