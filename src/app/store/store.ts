@@ -53,7 +53,7 @@ export class Store {
       this.subject$.next(newState);
     }
 
-    
+    isValid(): Observable<boolean> {
     this.isValid$ = this.todos$
     .pipe(
       map((todos) => todos.filter(todo => !todo.complete).length <= 5)
