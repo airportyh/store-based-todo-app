@@ -1,1 +1,6 @@
-
+[37m[32mCREATE[39m src/app/store-todo-item/store-todo-item.component.css (0 bytes)[39m
+[37m[32mCREATE[39m src/app/store-todo-item/store-todo-item.component.html (34 bytes)[39m
+[37m[32mCREATE[39m src/app/store-todo-item/store-todo-item.component.spec.ts (679 bytes)[39m
+[37m[32mCREATE[39m src/app/store-todo-item/store-todo-item.component.ts (303 bytes)[39m
+[37m[37mUPDATE[39m src/app/app.module.ts (871 bytes)[39m
+$ 

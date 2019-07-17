@@ -7,6 +7,7 @@ import { TodoComponent } from './todo/todo.component';
 import { BasicTodoComponent } from './basic-todo/basic-todo.component';
 import { BasicTodoItemComponent } from './basic-todo-item/basic-todo-item.component';
 import { StoreTodoComponent } from './store-todo/store-todo.component';
+import { StoreTodoItemComponent } from './store-todo-item/store-todo-item.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { StoreTodoComponent } from './store-todo/store-todo.component';
     TodoComponent,
     BasicTodoComponent,
     BasicTodoItemComponent,
-    StoreTodoComponent
+    StoreTodoComponent,
+    StoreTodoItemComponent
   ],
   imports: [
     BrowserModule,
