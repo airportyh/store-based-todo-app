@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class BasicTodoItemComponent implements OnInit {
 
-  @Input() todo: ITodo
+  @Input() todo: ITodo;
 
   constructor() { }
 
