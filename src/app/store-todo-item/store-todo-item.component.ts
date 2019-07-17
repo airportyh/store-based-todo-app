@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Store } from 'src/app/store/store';
 import { Observable } from '../../../node_modules/rxjs';
+import { ITodo } from '../models/todo';
 
 @Component({
   selector: 'store-todo-item',
