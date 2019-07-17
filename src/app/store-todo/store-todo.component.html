@@ -9,7 +9,7 @@
 You have {{activeCount$ | async}} active todos, and {{completeCount$ | async}} complete todos.
 <ul class="todos">
     <store-todo-item
-      *ngFor="let todo of todos$ | async; let i = index; track by trackByFn"
+      *ngFor="let todo of todos$ | async; let i = index; trackby trackByFn"
       [store]="store"
       [index]="i"
       >
