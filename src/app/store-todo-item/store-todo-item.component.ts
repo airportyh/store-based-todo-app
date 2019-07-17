@@ -10,6 +10,7 @@ export class StoreTodoItemComponent implements OnInit {
 
   @Input() store: Store;
   @Input() index: number;
+  
 
   constructor() { }
 
