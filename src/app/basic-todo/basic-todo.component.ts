@@ -38,4 +38,8 @@ export class BasicTodoComponent implements OnInit {
     this.isValid = this.todos.filter(todo => !todo.complete).length <= 5;
   }
 
+  updateCounts() {
+    this.activeCount = this.todos.filter(todo )
+  }
+
 }
