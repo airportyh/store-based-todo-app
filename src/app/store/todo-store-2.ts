@@ -1,4 +1,4 @@
-export class TodoStore {
+export class TodoStore extends {
   store: Store = new Store();
 
   addTodo(newTodoName) {
