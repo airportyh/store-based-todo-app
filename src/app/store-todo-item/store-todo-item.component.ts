@@ -16,7 +16,8 @@ export class StoreTodoItemComponent implements OnInit {
   public todo$: Observable<ITodo>;
 
   {
-    model: I
+    model: ITodo,
+    editing: boolean
 
   }
 
