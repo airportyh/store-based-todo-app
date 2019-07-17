@@ -53,7 +53,5 @@ export class Store {
         const newState = set(path, newArray, this.subject$.value);
         this.subject$.next(newState);
       }
-
-
     }
 }
