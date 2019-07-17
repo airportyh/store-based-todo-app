@@ -1,5 +1,4 @@
-[1m[31mERROR in store/store.ts(18,28): error TS2554: Expected 1-2 arguments, but got 3.
-store/store.ts(28,9): error TS2686: '_' refers to a UMD global, but the current file is a module. Consider adding an import instead.
+[1m[31mERROR in store/store.ts(28,9): error TS2686: '_' refers to a UMD global, but the current file is a module. Consider adding an import instead.
 store/store.ts(38,26): error TS2686: '_' refers to a UMD global, but the current file is a module. Consider adding an import instead.
 store/store.ts(40,9): error TS2686: '_' refers to a UMD global, but the current file is a module. Consider adding an import instead.
 store/store.ts(48,9): error TS2686: '_' refers to a UMD global, but the current file is a module. Consider adding an import instead.
