@@ -52,4 +52,17 @@ export class Store {
         set(path, newArray, this.subject$.value);
       this.subject$.next(newState);
     }
+
+    this.isValid$ = this.todos$
+    .pipe(
+      map((todos) => todos.filter(todo => !todo.complete).length <= 5)
+    );
+  this.activeCount$ = this.todos$
+      .pipe(
+        map((todos) => todos.filter(todo => !todo.complete).length)
+      );
+  this.completeCount$ = this.todos$
+    .pipe(
+      map((todos) => todos.filter(todo => todo.complete).length)
+    );
 }
