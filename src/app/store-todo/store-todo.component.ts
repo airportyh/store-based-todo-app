@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Store } from 'src/app/store/store';
 
 @Component({
   selector: 'store-todo',
