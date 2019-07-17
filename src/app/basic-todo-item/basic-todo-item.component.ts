@@ -9,6 +9,7 @@ import { ITodo } from 'src/app/models/todo';
 export class BasicTodoItemComponent implements OnInit {
 
   @Input() todo: ITodo;
+  @Output() change: 
 
   constructor() { }
 
