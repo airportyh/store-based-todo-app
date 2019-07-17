@@ -16,4 +16,7 @@ export class BasicTodoItemComponent implements OnInit {
   ngOnInit() {
   }
 
+  setComplete(complete: boolean) {
+    this.todo.complete = complete;
+  }
 }
