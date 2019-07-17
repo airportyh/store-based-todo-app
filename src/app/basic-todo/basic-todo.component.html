@@ -3,7 +3,7 @@
   <input type="text" [(ngModel)]="newTodoName">
   <button (click)="addTodo()">Add</button>
 </div>
-You have {{activeCount}} active todos, and 
+You have {{activeCount}} active todos, and {{completeCount}}
 <ul class="todos">
   <basic-todo-item
     [todo]="todo"
