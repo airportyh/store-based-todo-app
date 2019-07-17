@@ -1,6 +1,7 @@
 <div class="new-todo-input">
-<input type="text" [(ngModel)]="newTodoName">
-<button (click)="addTodo()">Add</button>
+  <input type="text" [(ngModel)]="newTodoName">
+  <button (click)="addTodo()">Add</button>
+</div>
 <ul class="todos">
   <li *ngFor="let todo of todos" class="todo">
     <label>
