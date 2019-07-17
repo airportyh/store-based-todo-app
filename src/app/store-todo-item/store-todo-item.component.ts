@@ -20,6 +20,7 @@ export class StoreTodoItemComponent implements OnInit {
   ngOnInit() {
     this.todo$ = this.store.get([this.index]);
     console.log("this worked", this.index);
+    this.todo$.subscribe((todo) => console.log(todo));
   }
 
 }
