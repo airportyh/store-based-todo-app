@@ -18,7 +18,6 @@ export class StoreTodoItemComponent implements OnInit {
   {
     model: ITodo,
     editing: boolean
-
   }
 
   constructor() { }
