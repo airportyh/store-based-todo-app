@@ -11,6 +11,6 @@ export class AppComponent {
 
   todoStore = new Store({
     isValid: true,
-    [{ name: "Water plants", complete: false }]
+    todos: [{ name: "Water plants", complete: false }]
   });
 }
