@@ -26,4 +26,6 @@ export class BasicTodoComponent implements OnInit {
     this.newTodoName = "";
   }
 
+  setComplete(i: index)
+
 }
