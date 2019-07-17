@@ -1,3 +1,16 @@
-<p>
-  store-todo-item works!
-</p>
+<li class="todo">
+    <label (dblclick)="toggleEditing()">
+      <input
+        type="checkbox"
+        [ngModel]="todo.complete"
+        (ngModelChange)="setComplete($event)"
+      >
+      <span *ngIf="!editing">{{todo.name}}</span>
+      <input
+        *ngIf="editing"
+        type="text"
+        [ngModel]="todo.name"
+        (ngModelChange)="setName($event)"
+      >
+    </label>
+  </li>
