@@ -6,7 +6,7 @@
   <basic-todo-item
     [todo]="todo"
     *ngFor="let todo of todos; let i = index"
-    (change)="handle"
+    (change)="handleItemChange("
     >
   </basic-todo-item>
 </ul>
