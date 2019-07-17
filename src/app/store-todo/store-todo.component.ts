@@ -40,7 +40,7 @@ export class StoreTodoComponent implements OnInit {
   addTodo() {
     this.store.transform([], (state) => {
       const todo = {
-        state.newTodoName,
+        name: state.newTodoName,
         complete: false
       };
       const
