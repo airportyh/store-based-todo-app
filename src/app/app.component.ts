@@ -10,7 +10,6 @@ export class AppComponent {
   title = 'store-based-todo';
 
   todoStore = new Store({
-    isValid: true,
     todos: [{ name: "Water plants", complete: false }]
   });
 }
