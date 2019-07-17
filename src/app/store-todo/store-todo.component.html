@@ -6,4 +6,4 @@
   >
   <button (click)="addTodo()">Add</button>
 </div>
-<pre class="state-display" ></pre>
+<pre class="state-display">{{ store.get([]) | async | json }}</pre>
