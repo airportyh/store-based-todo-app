@@ -41,13 +41,7 @@ export class StoreTodoComponent implements OnInit {
       name: this.newTodoName,
       complete: false
     };
-    this.store.push(["todos"], (state) => {
-
-      return {
-        newTodoName: "",
-        todos: [...state.todos, todo]
-      };
-    });
+    this.store.push(["todos"], todo);
     this.newTodoName = "";
   }
 
