@@ -3,7 +3,7 @@ export class TodoStore {
 
   addTodo(newTodoName) {
     const todo = {
-      name: this.newTodoName,
+      name: newTodoName,
       complete: false
     };
     this.store.push(["todos"], todo);
