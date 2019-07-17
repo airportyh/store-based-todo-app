@@ -9,7 +9,7 @@ import { Store } from 'src/app/store/store';
 export class StoreTodoComponent implements OnInit {
 
   @Input() store: Store;
-  
+  private isValid
 
   constructor() { }
 
