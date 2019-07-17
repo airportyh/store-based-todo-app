@@ -31,7 +31,7 @@ export class StoreTodoComponent implements OnInit {
         );
     this.completeCount$ = this.todos$
       .pipe(
-        map((todos) => todos.filter(todo => !todo.complete).length)
+        map((todos) => todos.filter(todo => todo.complete).length)
       );
   }
 
