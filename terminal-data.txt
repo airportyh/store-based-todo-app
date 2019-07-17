@@ -1,2 +1,0 @@
-[1m[31mERROR in store-todo-item/store-todo-item.component.ts(10,3): error TS1206: Decorators are not valid here.
-[39m[22m
