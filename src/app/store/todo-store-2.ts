@@ -1,6 +1,7 @@
 export class TodoStore {
   store: Store = new Store();
 
+  addTodo() {
   const todo = {
     name: this.newTodoName,
     complete: false
