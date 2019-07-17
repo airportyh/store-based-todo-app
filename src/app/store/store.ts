@@ -55,9 +55,9 @@ export class Store {
 
     isValid(): Observable<boolean> {
     return this.todos$
-    .pipe(
-      map((todos) => todos.filter(todo => !todo.complete).length <= 5)
-    );
+      .pipe(
+        map((todos) => todos.filter(todo => !todo.complete).length <= 5)
+      );
   this.activeCount$ = this.todos$
       .pipe(
         map((todos) => todos.filter(todo => !todo.complete).length)
