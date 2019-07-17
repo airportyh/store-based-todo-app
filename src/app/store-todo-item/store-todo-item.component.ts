@@ -21,4 +21,8 @@ export class StoreTodoItemComponent implements OnInit {
     this.todo$ = this.store.get(["todos", this.index]);
   }
 
+  toggleEditing() {
+    this.editing = !this.editing;
+  }
+
 }
