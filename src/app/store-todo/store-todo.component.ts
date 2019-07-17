@@ -46,7 +46,8 @@ export class StoreTodoComponent implements OnInit {
         newTodoName: "",
         todos: [...state.todos, todo]
       };
-    })
+    });
+    this.newTodoName = "";
   }
 
   trackByFn(index) {
