@@ -7,4 +7,4 @@
   <button (click)="addTodo()">Add</button>
 </div>
 <pre class="state-display">{{ store.get([]) | async | json }}</pre>
-You have {{activeCount}} active todos, and {{completeCount}} complete todos.
+You have {{activeCount}} active todos, and {{completeCount$ | async}} complete todos.
