@@ -1,2 +1,0 @@
-[1m[31mERROR in src/app/basic-todo-item/basic-todo-item.component.ts(21,5): error TS2349: Cannot invoke an expression whose type lacks a call signature. Type 'EventEmitter<ITodo>' has no compatible call signatures.
-[39m[22m
