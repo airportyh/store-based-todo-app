@@ -51,11 +51,5 @@ export class Store {
         newArray :
         set(path, newArray, this.subject$.value);
       this.subject$.next(newState);
-      if (path.length === 0) {
-        this.subject$.next(newArray);
-      } else {
-        const newState = set(path, newArray, this.subject$.value);
-        this.subject$.next(newState);
-      }
     }
 }
