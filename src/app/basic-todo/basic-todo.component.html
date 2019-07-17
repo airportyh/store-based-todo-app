@@ -1,4 +1,4 @@
-<form class="new-todo-input" (submit)>
+<form class="new-todo-input" (submit)="addTodo">
   <input type="text" [(ngModel)]="newTodoName">
   <button (click)="addTodo()">Add</button>
 </form>
