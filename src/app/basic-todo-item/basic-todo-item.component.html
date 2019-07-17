@@ -9,6 +9,6 @@
       <input
         type="text"
         [ngModel]="todo.name"
-        (ngModelChange)
+        (ngModelChange)="setName($event)"
     </label>
   </li>
