@@ -54,7 +54,7 @@ export class Store {
     }
 
     isValid(): Observable<boolean> {
-    this.isValid$ = this.todos$
+    return this.todos$
     .pipe(
       map((todos) => todos.filter(todo => !todo.complete).length <= 5)
     );
