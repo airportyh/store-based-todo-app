@@ -3,15 +3,6 @@
   <button (click)="addTodo()">Add</button>
 </div>
 <ul class="todos">
-  <li *ngFor="let todo of todos; let i = index" class="todo">
-    <label>
-      <input
-        type="checkbox"
-        [ngModel]="todo.complete"
-        (ngModelChange)="setComplete(i, $event)"
-      >
-      {{todo.name}}
-    </label>
-  </li>
+  
 </ul>
 <pre class="state-display">{{ this | json }}</pre>
