@@ -1,4 +1,0 @@
-[1m[31mERROR in store/store.ts(33,40): error TS2304: Cannot find name 'valu'.
-store/store.ts(35,28): error TS2304: Cannot find name 'value'.
-store/store.ts(37,42): error TS2304: Cannot find name 'value'.
-[39m[22m
