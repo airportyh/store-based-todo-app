@@ -37,7 +37,7 @@ export class Store {
       } else {
         const oldValue = _.get(this.subject$.value, path);
         const newValue = transform(oldValue);
-        _.set(this.subject$.value, path, value);
+        _.set(this.subject$.value, path, newValue);
         this.subject$.next(this.subject$.value);
       }
     }
