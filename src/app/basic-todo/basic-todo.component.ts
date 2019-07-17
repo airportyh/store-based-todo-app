@@ -29,7 +29,6 @@ export class BasicTodoComponent implements OnInit {
   }
 
   handleItemChange() {
-    console.log("handle item change");
     this.validate();
     console.log("isValid", this.isValid);
   }
