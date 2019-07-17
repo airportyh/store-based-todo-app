@@ -10,7 +10,8 @@ import { Observable } from '../../../node_modules/rxjs';
 export class StoreTodoComponent implements OnInit {
 
   @Input() store: Store;
-  private isValid$: Observable<
+  private isValid$: Observable<boolean>;
+  private todos$: Observable<
 
   constructor() { }
 
