@@ -31,4 +31,6 @@ export class BasicTodoComponent implements OnInit {
     todo.complete = complete;
   }
 
+  handleItemChange
+
 }
