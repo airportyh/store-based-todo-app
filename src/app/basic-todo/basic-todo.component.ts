@@ -26,11 +26,6 @@ export class BasicTodoComponent implements OnInit {
     this.newTodoName = "";
   }
 
-  setComplete(i: number, complete) {
-    const todo = this.todos[i];
-    todo.complete = complete;
-  }
-
   handleItemChange
 
 }
