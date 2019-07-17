@@ -6,6 +6,7 @@
         (ngModelChange)="setComplete($event)"
       >
       <span *ngIf="!editing">{{todo.name}}</span>
-      <input type="text" [ngModel]="todo.name"
+      <input
+        type="text" [ngModel]="todo.name"
     </label>
   </li>
