@@ -9,7 +9,7 @@
       <input
         *ngIf="editing"
         type="text"
-        [ngModel]="todo.name"
+        [ngModel]="(todo.name"
         (ngModelChange)="store.set([index, 'name'], $event)"
       >
     </label>
