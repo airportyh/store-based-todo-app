@@ -7,7 +7,7 @@ import { ITodo } from 'src/app/models/todo';
   styleUrls: ['./basic-todo.component.css']
 })
 export class BasicTodoComponent implements OnInit {
-  newTodoName: string;
+  newTodoName: string = "";
   todos: ITodo[] = [
     { name: "Water Plants", complete: false }
   ];
