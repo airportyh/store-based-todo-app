@@ -12,7 +12,7 @@ import { map } from 'rxjs/operators';
 export class StoreTodoComponent implements OnInit {
 
   @Input() store: Store;
-  private isValid$: Observable<boolean>;
+  public isValid$: Observable<boolean>;
   private todos$: Observable<ITodo[]>;
   private activeCount$: Observable<number>;
   private completeCount$: Observable<number>;
