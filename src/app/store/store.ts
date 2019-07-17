@@ -41,4 +41,12 @@ export class Store {
         this.subject$.next(newState);
       }
     }
+
+    push(path: any[], value: any): void {
+      const array = path.length === 0 ?
+        this.subject$.value :
+        get(path, this.subject$.value);
+      const newArray = [...array, value];
+      this.subject$.next(newArray);
+    }
 }
