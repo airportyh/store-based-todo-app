@@ -34,6 +34,7 @@ export class BasicTodoComponent implements OnInit {
 
   handleItemChange() {
     this.validate();
+    this.updateCounts();
   }
 
   validate() {
