@@ -60,6 +60,15 @@ export class Store {
         );
 
       }
+
+    addTodo() {
+      const todo = {
+        name: this.newTodoName,
+        complete: false
+      };
+      this.store.push(["todos"], todo);
+      this.newTodoName = "";
+    }
   // this.activeCount$ = this.todos$
   //     .pipe(
   //       map((todos) => todos.filter(todo => !todo.complete).length)
