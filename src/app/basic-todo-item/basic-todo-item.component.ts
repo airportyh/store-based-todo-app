@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output } from '@angular/core';
 import { ITodo } from 'src/app/models/todo';
 import { EventEmitter } from '../../../node_modules/protractor';
 
