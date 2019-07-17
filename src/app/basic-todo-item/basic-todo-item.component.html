@@ -7,6 +7,7 @@
       >
       <span *ngIf="!editing">{{todo.name}}</span>
       <input
+        *ngIf="editing"
         type="text"
         [ngModel]="todo.name"
         (ngModelChange)="setName($event)"
