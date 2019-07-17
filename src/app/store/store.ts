@@ -15,7 +15,7 @@ export class Store {
         return this.subject$;
       } else {
         return this.subject$.pipe(
-            map((state) => get(state, path)),
+            map((state) => get(path, state, path)),
             distinctUntilChanged()
         );
       }
