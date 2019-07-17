@@ -1,5 +1,4 @@
 import { Observable, BehaviorSubject, Subject } from "rxjs";
-import * as _ from "lodash";
 import { map, distinctUntilChanged } from "rxjs/operators";
 
 export class Store {
