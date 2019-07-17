@@ -21,4 +21,8 @@ export class BasicTodoItemComponent implements OnInit {
     this.todo.complete = complete;
     this.change.emit(this.todo);
   }
+
+  toggleEditing() {
+    this.editing = !this.editing;
+  }
 }
