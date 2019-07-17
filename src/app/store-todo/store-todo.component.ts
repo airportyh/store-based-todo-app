@@ -46,7 +46,7 @@ export class StoreTodoComponent implements OnInit {
       return {
         newTodoName: "",
         todos: [...state.todos, todo]
-      }
+      };
     })
   }
 
