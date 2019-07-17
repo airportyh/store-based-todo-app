@@ -51,7 +51,7 @@ export class StoreTodoComponent implements OnInit {
   }
 
   trackByFn(index) {
-    return row.id;
+    return index;
   }
 
 }
