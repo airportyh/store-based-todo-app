@@ -10,7 +10,7 @@
         *ngIf="editing"
         type="text"
         [ngModel]="todo.name"
-        (ngModelChange)="store.set([index, 'name'"
+        (ngModelChange)="store.set([index, 'name'], $event)"
       >
     </label>
   </li>
