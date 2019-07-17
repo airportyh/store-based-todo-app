@@ -52,7 +52,7 @@ export class Store {
       } else {
 
       }
-      const newState = set(path, newArray, this.subject$.value);
+
 
     }
 }
