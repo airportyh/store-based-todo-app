@@ -1,6 +1,0 @@
-[37m[32mCREATE[39m src/app/basic-todo-item/basic-todo-item.component.css (0 bytes)[39m
-[37m[32mCREATE[39m src/app/basic-todo-item/basic-todo-item.component.html (34 bytes)[39m
-[37m[32mCREATE[39m src/app/basic-todo-item/basic-todo-item.component.spec.ts (679 bytes)[39m
-[37m[32mCREATE[39m src/app/basic-todo-item/basic-todo-item.component.ts (303 bytes)[39m
-[37m[37mUPDATE[39m src/app/app.module.ts (661 bytes)[39m
-$ 
