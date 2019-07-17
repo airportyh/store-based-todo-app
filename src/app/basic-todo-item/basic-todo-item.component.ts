@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { ITodo } from 'src/app/models/todo';
 
 @Component({
   selector: 'app-basic-todo-item',
