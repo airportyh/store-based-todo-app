@@ -26,6 +26,8 @@ export class BasicTodoComponent implements OnInit {
     this.newTodoName = "";
   }
 
-  handleItemChange(i: number, todo: I)
+  handleItemChange(i: number, todo: ITodo) {
+    
+  }
 
 }
