@@ -58,7 +58,8 @@ export class Store {
         .pipe(
           map((todos) => todos.filter(todo => !todo.complete).length <= 5)
         );
-        }
+
+      }
   this.activeCount$ = this.todos$
       .pipe(
         map((todos) => todos.filter(todo => !todo.complete).length)
