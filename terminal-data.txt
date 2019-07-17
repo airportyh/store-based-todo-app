@@ -1,0 +1,2 @@
+[1m[31mERROR in src/app/basic-todo-item/basic-todo-item.component.ts(10,9): error TS2304: Cannot find name 'ITodo'.
+[39m[22m
