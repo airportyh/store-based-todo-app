@@ -18,7 +18,7 @@ export class BasicTodoComponent implements OnInit {
   ngOnInit() {
   }
 
-  addTodo(event: Event) {
+  addTodo() {
     event.preventDefault();
     const todo = {
       name: this.newTodoName,
