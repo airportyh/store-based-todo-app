@@ -33,4 +33,8 @@ export class BasicTodoComponent implements OnInit {
     console.log("isValid", this.isValid);
   }
 
+  validate() {
+
+  }
+
 }
