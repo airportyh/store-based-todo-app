@@ -44,8 +44,8 @@ export class StoreTodoComponent implements OnInit {
         complete: false
       };
       return {
-        ...state
-      };
+        
+      }
     })
   }
 
