@@ -1,2 +1,0 @@
-[1m[31mERROR in store-todo/store-todo.component.ts(37,40): error TS2345: Argument of type '"newTodoName"' is not assignable to parameter of type 'any[]'.
-[39m[22m
