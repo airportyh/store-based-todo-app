@@ -26,7 +26,7 @@ export class Store {
         this.subject$.next(value);
       } else {
         const newState = set(path, value, this.subject$.value);
-        this.subject$.next(this.subject$.value);
+        this.subject$.next(newState);
       }
     }
 
