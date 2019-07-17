@@ -1,3 +1,8 @@
+.new-todo-input {
+  background-color: lightpink;
+  
+}
+
 .todos {
   background-color: lightblue;
   padding: 10px;
