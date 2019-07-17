@@ -2,7 +2,7 @@
     <label (dblclick)="toggleEditing()">
       <input
         type="checkbox"
-        [ngModel]="todo.complete"
+        [ngModel]="(todo$ | async).complete"
         (ngModelChange)="store.set([index, 'complete'], $event)"
       >
       <span *ngIf="!editing">{{todo.name}}</span>
