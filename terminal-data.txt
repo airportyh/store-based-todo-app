@@ -1,2 +1,0 @@
-[1m[31mERROR in src/app/basic-todo/basic-todo.component.ts(31,5): error TS2322: Type 'ITodo[]' is not assignable to type 'boolean'.
-[39m[22m
