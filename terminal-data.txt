@@ -1,2 +1,0 @@
-[1m[31mERROR in store-todo/store-todo.component.ts(20,26): error TS2339: Property 'get' does not exist on type 'StoreTodoComponent'.
-[39m[22m
