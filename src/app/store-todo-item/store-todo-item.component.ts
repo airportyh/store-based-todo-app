@@ -17,6 +17,7 @@ export class StoreTodoItemComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.todo$ = this.store.get([ind])
   }
 
 }
