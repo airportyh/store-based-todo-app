@@ -15,7 +15,7 @@ export class StoreTodoComponent implements OnInit {
   private isValid$: Observable<boolean>;
   private todos$: Observable<ITodo[]>;
   private activeCount$: Observable<number>;
-  private completeCount$: Ob
+  private completeCount$: Observable<number>;
 
   constructor() { }
 
