@@ -11,6 +11,7 @@ export class BasicTodoComponent implements OnInit {
   todos: ITodo[] = [
     { name: "Water Plants", complete: false }
   ];
+  isValid: boolean = true;
 
   constructor() { }
 
@@ -27,7 +28,7 @@ export class BasicTodoComponent implements OnInit {
   }
 
   handleItemChange(i: number, todo: ITodo) {
-    
+
   }
 
 }
