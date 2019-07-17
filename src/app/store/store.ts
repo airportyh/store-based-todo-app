@@ -30,7 +30,7 @@ export class Store {
       }
     }
 
-    transform(path: any[], transform: (valu)): void {
+    transform(path: any[], transform: (value) => any): void {
       if (path.length === 0) {
         this.subject$.next(value);
       } else {
