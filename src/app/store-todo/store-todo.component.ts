@@ -34,7 +34,6 @@ export class StoreTodoComponent implements OnInit {
       .pipe(
         map((todos) => todos.filter(todo => todo.complete).length)
       );
-    this.newTodoName$ = this.store.get(["newTodoName"]);
   }
 
   addTodo() {
