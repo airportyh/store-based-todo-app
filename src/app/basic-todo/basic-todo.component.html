@@ -4,14 +4,5 @@
 </div>
 <ul class="todos">
   <basic-todo-item [todo]="todo" *ngFor="let todo of todos; let i = index" class="todo"></basic-todo-item>
-    <label>
-      <input
-        type="checkbox"
-        [ngModel]="todo.complete"
-        (ngModelChange)="setComplete(i, $event)"
-      >
-      {{todo.name}}
-    </label>
-  </li>
 </ul>
 <pre class="state-display">{{ this | json }}</pre>
