@@ -1,4 +1,5 @@
-export class TodoStore extends Store {
+export class TodoStore {
+  store: Store = new Store();
 
   addTodo(newTodoName) {
     const todo = {
