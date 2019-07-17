@@ -17,6 +17,4 @@ export class StoreTodoItemComponent implements OnInit {
   ngOnInit() {
   }
 
-  
-
 }
