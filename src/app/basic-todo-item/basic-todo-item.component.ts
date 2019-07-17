@@ -28,6 +28,6 @@ export class BasicTodoItemComponent implements OnInit {
 
   setName(name: string) {
     this.todo.name = name;
-    
+    this.change.emit(this.todo);
   }
 }
