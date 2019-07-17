@@ -1,3 +1,0 @@
-[1m[31mERROR in store-todo/store-todo.component.ts(10,4): error TS2304: Cannot find name 'Input'.
-store-todo/store-todo.component.ts(10,19): error TS2304: Cannot find name 'Store'.
-[39m[22m
