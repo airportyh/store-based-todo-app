@@ -1,2 +1,0 @@
-[1m[31mERROR in store-todo/store-todo.component.ts(41,16): error TS2339: Property 'transform' does not exist on type 'Store'.
-[39m[22m
