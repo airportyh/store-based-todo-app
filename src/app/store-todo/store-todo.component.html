@@ -7,4 +7,12 @@
   <button (click)="addTodo()">Add</button>
 </div>
 You have {{activeCount$ | async}} active todos, and {{completeCount$ | async}} complete todos.
+<ul class="todos">
+    <basic-todo-item
+      [todo]="todo"
+      *ngFor="let todo of todos; let i = index"
+      (change)="handleItemChange()"
+      >
+    </basic-todo-item>
+  </ul>
 <pre class="state-display">{{ store.get([]) | async | json }}</pre>
