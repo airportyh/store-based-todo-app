@@ -18,5 +18,6 @@ export class BasicTodoItemComponent implements OnInit {
 
   setComplete(complete: boolean) {
     this.todo.complete = complete;
+    
   }
 }
