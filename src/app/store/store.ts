@@ -53,6 +53,7 @@ export class Store {
       this.subject$.next(newState);
     }
 
+    
     this.isValid$ = this.todos$
     .pipe(
       map((todos) => todos.filter(todo => !todo.complete).length <= 5)
