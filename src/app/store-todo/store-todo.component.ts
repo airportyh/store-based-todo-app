@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-store-todo',
+  selector: 'store-todo',
   templateUrl: './store-todo.component.html',
   styleUrls: ['./store-todo.component.css']
 })
