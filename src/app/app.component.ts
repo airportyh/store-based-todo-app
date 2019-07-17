@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'store-based-todo';
 
-  todoStore = new Store()
+  todoStore = new Store();
 }
