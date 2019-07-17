@@ -1,0 +1,6 @@
+[1m[31mERROR in store-todo-item/store-todo-item.component.ts(18,3): error TS1068: Unexpected token. A constructor, method, accessor, or property was expected.
+store-todo-item/store-todo-item.component.ts(23,17): error TS1005: ';' expected.
+store-todo-item/store-todo-item.component.ts(25,14): error TS1005: ';' expected.
+store-todo-item/store-todo-item.component.ts(29,19): error TS1005: ';' expected.
+store-todo-item/store-todo-item.component.ts(33,1): error TS1128: Declaration or statement expected.
+[39m[22m
