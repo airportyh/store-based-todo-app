@@ -1,3 +1,0 @@
-[1m[31mERROR in src/app/basic-todo/basic-todo.component.ts(29,3): error TS2391: Function implementation is missing or not immediately following the declaration.
-src/app/basic-todo/basic-todo.component.ts(29,37): error TS2304: Cannot find name 'I'.
-[39m[22m
