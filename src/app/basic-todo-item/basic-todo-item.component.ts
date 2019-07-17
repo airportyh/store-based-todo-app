@@ -10,7 +10,7 @@ export class BasicTodoItemComponent implements OnInit {
 
   @Input() todo: ITodo;
   @Output() change: EventEmitter<ITodo>;
-  
+  private editing: boolean = false;
 
   constructor() { }
 
