@@ -11,7 +11,7 @@ export class StoreTodoComponent implements OnInit {
 
   @Input() store: Store;
   private isValid$: Observable<boolean>;
-  private todos$: Observable<
+  private todos$: Observable<ITodo[]>;
 
   constructor() { }
 
