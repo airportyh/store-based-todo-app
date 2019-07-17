@@ -1,3 +1,0 @@
-[1m[31mERROR in store-todo/store-todo.component.ts(22,9): error TS2552: Cannot find name 'map'. Did you mean 'Map'?
-store-todo/store-todo.component.ts(22,24): error TS2552: Cannot find name 'todo'. Did you mean 'todos'?
-[39m[22m
