@@ -3,7 +3,7 @@
       <input
         type="checkbox"
         [ngModel]="todo.complete"
-        (ngModelChange)="setComplete(i, $event)"
+        (ngModelChange)="change($event)"
       >
       {{todo.name}}
     </label>
