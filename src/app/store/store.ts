@@ -47,6 +47,7 @@ export class Store {
         this.subject$.value :
         get(path, this.subject$.value);
       const newArray = [...array, value];
+      const newState = 
       if (path.length === 0) {
         this.subject$.next(newArray);
       } else {
