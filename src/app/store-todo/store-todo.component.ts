@@ -43,7 +43,9 @@ export class StoreTodoComponent implements OnInit {
         name: state.newTodoName,
         complete: false
       };
-      const
+      return {
+        ...state
+      };
     })
   }
 
