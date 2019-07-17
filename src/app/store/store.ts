@@ -33,7 +33,7 @@ export class Store {
     transform(path: any[], transform: (value) => any): void {
       if (path.length === 0) {
         const newValue = transform(this.subject$.value);
-        this.subject$.next(value);
+        this.subject$.next(newValue);
       } else {
         _.set(this.subject$.value, path, value);
         this.subject$.next(this.subject$.value);
