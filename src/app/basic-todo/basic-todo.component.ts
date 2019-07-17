@@ -40,7 +40,7 @@ export class BasicTodoComponent implements OnInit {
 
   updateCounts() {
     this.activeCount = this.todos.filter(todo => !todo.complete).length;
-    this.completeCount = this.todos.filter(todo => !todo.complete).length;
+    this.completeCount = this.todos.filter(todo => todo.complete).length;
   }
 
 }
