@@ -19,7 +19,6 @@ export class BasicTodoComponent implements OnInit {
   }
 
   addTodo() {
-    event.preventDefault();
     const todo = {
       name: this.newTodoName,
       complete: false
