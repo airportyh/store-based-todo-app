@@ -1,7 +1,7 @@
 <p *ngIf="!(isValid$ | async)" class="error">Gasp! You may not have more than 5 active todos!!!</p>
 <div class="new-todo-input">
   <input type="text"
-    [(ngModel)]="newTodoName$ | async"
+    [(ngModel)]="newTodoName"
     (ngModelChange)="store.set(['newTodoName'], $event)"
   >
   <button (click)="addTodo()">Add</button>
