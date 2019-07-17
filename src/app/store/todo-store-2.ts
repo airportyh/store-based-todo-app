@@ -1,3 +1,5 @@
 export class TodoStore {
-  store: Store
+  store: Store = new Store();
+
+  
 }
