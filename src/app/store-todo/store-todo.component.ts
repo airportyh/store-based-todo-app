@@ -43,7 +43,7 @@ export class StoreTodoComponent implements OnInit {
         state.newTodoName,
         complete: false
       };
-      
+      const
     })
   }
 
