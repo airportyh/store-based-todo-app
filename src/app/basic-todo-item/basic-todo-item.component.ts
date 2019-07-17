@@ -28,6 +28,7 @@ export class BasicTodoItemComponent implements OnInit {
 
   setName(name: string) {
     this.todo.name = name;
+    console.log("emiting change setName");
     this.change.emit(this.todo);
   }
 }
