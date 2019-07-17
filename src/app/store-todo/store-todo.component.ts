@@ -25,6 +25,7 @@ export class StoreTodoComponent implements OnInit {
         map((todos) => todos.filter(todo => !todo.complete).length <= 5)
       )
     this.todos$ = this.store.get(["todos"]);
+    this.activeCount$ = 
   }
 
 }
