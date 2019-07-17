@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Store } from 'src/app/store/store';
+import { Observable } from '../../../node_modules/rxjs';
 
 @Component({
   selector: 'store-todo',
@@ -9,7 +10,7 @@ import { Store } from 'src/app/store/store';
 export class StoreTodoComponent implements OnInit {
 
   @Input() store: Store;
-  private isValid
+  private isValid$: Observable<
 
   constructor() { }
 
