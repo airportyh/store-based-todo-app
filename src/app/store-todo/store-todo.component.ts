@@ -37,4 +37,8 @@ export class StoreTodoComponent implements OnInit {
     this.newTodoName$ = this.store.get(["newTodoName"]);
   }
 
+  addTodo() {
+    
+  }
+
 }
