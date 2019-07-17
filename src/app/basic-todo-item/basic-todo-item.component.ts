@@ -25,4 +25,9 @@ export class BasicTodoItemComponent implements OnInit {
   toggleEditing() {
     this.editing = !this.editing;
   }
+
+  setName(name: string) {
+    this.todo.name = name;
+    
+  }
 }
