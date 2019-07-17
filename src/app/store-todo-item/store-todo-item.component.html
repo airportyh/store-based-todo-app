@@ -3,7 +3,7 @@
       <input
         type="checkbox"
         [ngModel]="todo.complete"
-        (ngModelChange)="store.set([index, ], $event)"
+        (ngModelChange)="store.set([index, "complete"], $event)"
       >
       <span *ngIf="!editing">{{todo.name}}</span>
       <input
