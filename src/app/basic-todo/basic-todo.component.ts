@@ -18,6 +18,7 @@ export class BasicTodoComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.updateCounts();
   }
 
   addTodo() {
