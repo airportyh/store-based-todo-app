@@ -12,6 +12,8 @@ export class BasicTodoComponent implements OnInit {
     { name: "Water Plants", complete: false }
   ];
   isValid: boolean = true;
+  activeCount: number;
+  completeCount: number;
 
   constructor() { }
 
