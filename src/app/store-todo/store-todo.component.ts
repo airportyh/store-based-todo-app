@@ -12,8 +12,8 @@ import { map } from 'rxjs/operators';
 export class StoreTodoComponent implements OnInit {
 
   @Input() store: Store;
-  public isValid$: Observable<boolean>;
   public todos$: Observable<ITodo[]>;
+  public isValid$: Observable<boolean>;
   public activeCount$: Observable<number>;
   public completeCount$: Observable<number>;
   public newTodoName: string;
