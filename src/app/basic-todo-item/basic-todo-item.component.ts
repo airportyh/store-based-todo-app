@@ -9,7 +9,7 @@ import { ITodo } from 'src/app/models/todo';
 export class BasicTodoItemComponent implements OnInit {
 
   @Input() todo: ITodo;
-  @Output() change: EventEmitter<ITodo>;
+  @Output() change: EventEmitter<ITodo> = new ;
   private editing: boolean = false;
 
   constructor() { }
