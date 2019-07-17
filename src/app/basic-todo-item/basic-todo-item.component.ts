@@ -10,7 +10,7 @@ import { EventEmitter } from '../../../node_modules/protractor';
 export class BasicTodoItemComponent implements OnInit {
 
   @Input() todo: ITodo;
-  @Output() change: EventEmitter
+  @Output() change: EventEmitter<ITodo>
 
   constructor() { }
 
