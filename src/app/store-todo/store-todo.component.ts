@@ -42,6 +42,7 @@ export class StoreTodoComponent implements OnInit {
       const todo = {
         state.newTodoName,
         complete: false
+      };
       
     })
   }
