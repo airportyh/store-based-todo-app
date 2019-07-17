@@ -17,8 +17,8 @@ export class StoreTodoComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.isValid$ = this.store.get(["todos"]);
-    
+    this.isValid$ =
+    this.store.get(["todos"]);
   }
 
 }
