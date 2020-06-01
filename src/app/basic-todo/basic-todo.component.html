@@ -5,11 +5,16 @@
 </div>
 You have {{activeCount}} active todos, and {{completeCount}} complete todos.
 <ul class="todos">
+    
+    
   <basic-todo-item
     [todo]="todo"
     *ngFor="let todo of todos; let i = index"
     (change)="handleItemChange()"
     >
   </basic-todo-item>
+  
+  
+  
 </ul>
 <pre class="state-display">{{ this | json }}</pre>

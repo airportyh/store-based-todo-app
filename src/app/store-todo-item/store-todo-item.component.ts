@@ -15,11 +15,6 @@ export class StoreTodoItemComponent implements OnInit {
   public editing: boolean;
   public todo$: Observable<ITodo>;
 
-  {
-    model: ITodo,
-    editing: boolean
-  }
-
   constructor() { }
 
   ngOnInit() {

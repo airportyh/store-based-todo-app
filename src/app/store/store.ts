@@ -53,28 +53,4 @@ export class Store {
       this.subject$.next(newState);
     }
 
-    isValid(): Observable<boolean> {
-      return this.todos$
-        .pipe(
-          map((todos) => todos.filter(todo => !todo.complete).length <= 5)
-        );
-
-      }
-
-    addTodo() {
-      const todo = {
-        name: this.newTodoName,
-        complete: false
-      };
-      this.store.push(["todos"], todo);
-      this.newTodoName = "";
-    }
-  // this.activeCount$ = this.todos$
-  //     .pipe(
-  //       map((todos) => todos.filter(todo => !todo.complete).length)
-  //     );
-  // this.completeCount$ = this.todos$
-  //   .pipe(
-  //     map((todos) => todos.filter(todo => todo.complete).length)
-  //   );
 }
